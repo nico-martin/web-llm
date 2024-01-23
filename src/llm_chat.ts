@@ -1,4 +1,4 @@
-import * as tvmjs from "tvmjs";
+import * as tvmjs from "@nico-martin/tvmjs";
 import { Tokenizer } from "@mlc-ai/web-tokenizers";
 import { ChatConfig } from "./config";
 import { getConversation, Conversation } from "./conversation";

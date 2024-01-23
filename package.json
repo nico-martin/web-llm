@@ -25,6 +25,7 @@
   "homepage": "https://github.com/mlc-ai/web-llm",
   "devDependencies": {
     "@mlc-ai/web-tokenizers": "^0.1.2",
+    "@nico-martin/tvmjs": "^0.17.0-dev0",
     "@rollup/plugin-commonjs": "^20.0.0",
     "@rollup/plugin-node-resolve": "^13.0.4",
     "@typescript-eslint/eslint-plugin": "^5.59.6",
@@ -37,7 +38,6 @@
     "rollup-plugin-ignore": "^1.0.10",
     "rollup-plugin-typescript2": "^0.34.1",
     "tslib": "^2.3.1",
-    "tvmjs": "file:./tvm_home/web",
     "typescript": "^4.9.5"
   }
 }

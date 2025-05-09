@@ -1,10 +1,10 @@
 {
-  "name": "embeddings-example",
+  "name": "qwen3_example",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "parcel src/embeddings.html  --port 8885",
-    "build": "parcel build src/embeddings.html --dist-dir lib"
+    "start": "parcel src/qwen3_example.html  --port 8883",
+    "build": "parcel build src/qwen3_example.html --dist-dir lib"
   },
   "devDependencies": {
     "buffer": "^5.7.1",
@@ -15,7 +15,6 @@
     "url": "^0.11.3"
   },
   "dependencies": {
-    "@mlc-ai/web-llm": "^0.2.79",
-    "langchain": "0.2.15"
+    "@mlc-ai/web-llm": "^0.2.79"
   }
 }
